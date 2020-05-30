@@ -5,7 +5,9 @@ class ConfigurationReader :
     # this is called constructor and it is called automatically on object creation
     # it is used to initialize the basic state of an object, like initializing few properties
     def __init__(self):     
-        print('ConfigurationReader called.')        
+        print('ConfigurationReader called.')     
+        # example of relative path, it meant, in the same directory 
+        # there is a folder called configs which contains configurations.ini   
         self.configurationFilePath = r'.\configs\configurations.ini'
 
     def FetchValue(self, section,key):
