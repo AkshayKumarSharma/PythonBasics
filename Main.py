@@ -1,5 +1,6 @@
-import configparser
-import ConfigurationReader
+# here libraries/classe are imported
+import configparser # this one is python's own class
+import ConfigurationReader # this is custom created, for possible re-use at later stage
 
 # initialized an instance of ConfigurationReader class
 configReader = ConfigurationReader.ConfigurationReader()
