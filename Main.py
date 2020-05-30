@@ -1,6 +1,7 @@
 # here libraries/classe are imported
 import configparser # this one is python's own class
 import ConfigurationReader # this is custom created, for possible re-use at later stage
+import Features.DataTypes
 
 # initialized an instance of ConfigurationReader class
 configReader = ConfigurationReader.ConfigurationReader()
@@ -17,5 +18,9 @@ print(splittedIpAddress)
 for splitPart in splittedIpAddress:
     convertedToInt = int(splitPart)
     print(f'Converted type :  {type(convertedToInt)} for actual type :  {type(splitPart)}')
+
+
+dataTypeExamples = Features.DataTypes.DataTypeExamples()
+dataTypeExamples.PrintDataTypes()
 
 
