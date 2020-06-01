@@ -15,7 +15,7 @@ print(f'Ip address from config file : {ipAddress}')
 print(splittedIpAddress)
 
 # here basic for loop is demonstrated, in addition to type casting
-for splitPart in splittedIpAddress:
+for splitPart in splittedIpAddress: 
     convertedToInt = int(splitPart)
     print(f'Converted type :  {type(convertedToInt)} for actual type :  {type(splitPart)}')
 
